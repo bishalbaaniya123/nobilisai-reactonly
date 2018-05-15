@@ -1,0 +1,52 @@
+.anticon-upload {
+    color: #000 !important;
+}
+
+.ant-upload-list-item-name {
+    color: #fff;
+}
+
+.user-image-dashboard {
+    border-radius: 50%;
+    width: 140px;
+}
+
+.dasboard-user-image {
+    vertical-align: center;
+}
+
+.find-vacancies {
+    float: right;
+}
+
+.job-search-applied {
+    float: left;
+}
+
+.applied-jobs-table {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.ant-table-row {
+    color: #fff;
+    transition: 0.0s;
+}
+
+.ant-table-row:hover {
+    color: #000;
+}
+
+iframe {
+    width: 60%;
+    height: 438px;
+    margin-top: 25px;
+}
+
+.view-resume-title h1 {
+    font-size: 20px;
+}
+
+.ant-input-search{
+    height: 35px;
+}

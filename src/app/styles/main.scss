@@ -1,0 +1,9 @@
+
+@import 'modules/settings';
+
+.example {
+    h1 {
+        color: $green;
+        font-family: $font-family-exo;
+    }
+}

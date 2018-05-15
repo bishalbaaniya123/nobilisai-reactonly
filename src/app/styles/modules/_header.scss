@@ -1,0 +1,30 @@
+.header-main {
+    background-color: rgba(0, 0, 0, .5); //define this in settings
+    position: fixed;
+    z-index: 904;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, .5); //define this in settings
+    height: 66px;
+    width: 100%;
+    min-width: 320px;
+    padding: 0 32px 0 40px;
+    color: #FFF;
+
+    a {
+        color: #fff;
+        display: block;
+        font-size: 24px;
+        font-family: Roboto, sans-serif;
+        white-space: nowrap;
+        float: left;
+        line-height: 60px;
+
+        span {
+            color: #00a2df;
+        }
+    }
+
+    a:hover {
+        color: #00a2df;
+    }
+
+}

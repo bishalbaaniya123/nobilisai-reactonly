@@ -1,0 +1,103 @@
+.login-form {
+    margin-top: 35%;
+    background: rgba(0, 0, 0, .55);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.ant-checkbox span {
+    color: #fff;
+}
+
+.login-form h1 {
+    color: #fff;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #00a2df;
+    margin-bottom: 10px;
+}
+
+.login-form a:hover {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ant-form-item-control-wrapper {
+    margin-top: 10px;
+}
+
+.register-button, .job-apply-button-details {
+    float: right;
+}
+
+.login-form .ant-btn-primary, .job-apply-button {
+    background: rgba(0, 0, 0, 0);
+    border-color: white;
+    transition: transform .2s;
+}
+
+.login-form .ant-btn-primary:hover, .job-apply-button:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+}
+
+.ant-input {
+    background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    transition: transform .2s;
+}
+
+.ant-input:focus {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.login-form .anticon {
+    display: none;
+}
+
+.anticon {
+    color: #fff;
+}
+
+body {
+    background-image: url("../../images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.reset-password {
+    padding: 50px 50px 0px 50px;
+}
+
+.upper-margin {
+    margin-top: 35%;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 0px 10px;
+}
+
+.upper-margin h1 {
+    color: #ffffff;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split {
+    color: #FF6666 !important;
+}
+
+.has-error .ant-input, .has-error .ant-input:hover {
+    border-color: #FF6666 !important;
+}
+
+.ant-form-item {
+    margin-bottom: 0;
+}

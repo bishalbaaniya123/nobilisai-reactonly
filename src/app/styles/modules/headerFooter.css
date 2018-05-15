@@ -1,0 +1,44 @@
+.header-main {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    z-index: 904;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, .5);
+    height: 66px;
+    width: 100%;
+    min-width: 320px;
+    padding: 0 32px 0 40px;
+    color: #FFF;
+}
+
+.header-main a {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    white-space: nowrap;
+    float: left;
+    line-height: 60px;
+    /*margin-top: 20px;*/
+}
+
+.header-main a span {
+    color: #00a2df;
+}
+
+.header-main a:hover {
+    color: #00a2df;
+}
+
+.footer-main {
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-main h1 {
+    margin-bottom: auto;
+    color: white;
+    font-size: 22px;
+}

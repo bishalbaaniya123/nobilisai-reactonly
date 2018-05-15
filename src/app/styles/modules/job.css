@@ -1,0 +1,53 @@
+.main-col-joblist {
+    margin-top: 76px;
+    color: #FFF;
+}
+
+.main-col-joblist h1 {
+    color: #FFF;
+}
+
+.job-search {
+    float: right;
+}
+
+.single-job-main {
+    margin-top: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+}
+
+.single-job-main h1 {
+    color: #fff;
+}
+
+.update-resume {
+    margin-top: 12%;
+    float: right;
+}
+
+.update-resume-button {
+    float: right;
+    margin-right: 10%;
+}
+
+.last-updated {
+    float: right;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-right: 10%;
+}
+/*.ant-modal-body{
+    background: #15252e;
+}*/
+.existing-resume{
+    margin-bottom: 10px;
+}
+.upload-modal p{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.ant-modal-footer{
+    background: #15252e;
+}
