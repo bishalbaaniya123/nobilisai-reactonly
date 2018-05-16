@@ -1,10 +1,14 @@
 import 'antd/dist/antd.css';
 import '../../styles/modules/login.css';
 import React from 'react';
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {Button, Col, Form, Input, Row} from 'antd';
 import Header from '../HeaderFooter/Header.jsx';
 import Footer from '../HeaderFooter/Footer.jsx';
+import {testAction} from "../../actions/test_action.jsx";
+import {connect} from 'react-redux';
+import {bindActionCreators} from "redux";
+import {testAction2, testAction3} from "../../actions/test_action";
 
 
 const FormItem = Form.Item;
@@ -23,6 +27,9 @@ class UserLogin extends React.Component {
             }
 
         });
+    };
+    testButton = () => {
+        console.log("This is the test button");
     };
 
     enter() {
@@ -69,11 +76,24 @@ class UserLogin extends React.Component {
                         </Form>
                     </Col>
                 </Row>
+                <Button onClick={ () => this.props.testAction3("hhyhyh") }>Click me</Button>
                 <Footer/>
             </div>
         );
     }
 }
 
+const mapDispatchToProps = (dispatch) => {
+    return bindActionCreators({
+        testAction:testAction,
+        testAction2: testAction2,
+        testAction3: testAction3
+    },dispatch)
+};
+const mapStateToProps = (state) => {
+    return {test:state.test};
+};
+
 const LoginForm = Form.create()(UserLogin);
-export default LoginForm;
+const SmartLogin = connect(mapStateToProps, mapDispatchToProps)(LoginForm);
+export default SmartLogin;
